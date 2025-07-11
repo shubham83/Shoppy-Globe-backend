@@ -78,7 +78,7 @@ Shoppyglobe/
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/PatelKathan089/Web-Projects.git
+    git clone https://github.com/shubham83/Shoppy-Globe-backend.git
     ```  
 2. Navigate to the project folder:
     ```bash
@@ -86,8 +86,8 @@ Shoppyglobe/
     ```
 3. Create .env file in your backend
     ```
-    SECRET_KEY = <Set your 256 bit key>
-    MONGODB_URI = <Set your MongoDB connection string>
+    SECRET_KEY = "a-string-secret-at-least-256-bits-long"
+    MONGODB_URI = "mongodb+srv://shubhampoddar83:S1gNZbDLpboagh7l@cluster0.liyykds.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     ```
 4. Install dependencies:
     ```bash
@@ -106,7 +106,7 @@ Shoppyglobe/
 
 ## Github Link
 
-[https://github.com/PatelKathan089/Web-Projects/tree/master/online_library_system](https://github.com/PatelKathan089/Web-Projects/tree/master/online_library_system)
+[https://github.com/shubham83/Shoppy-Globe-backend.git](https://github.com/shubham83/Shoppy-Globe-backend.git)
 
 ## License
 

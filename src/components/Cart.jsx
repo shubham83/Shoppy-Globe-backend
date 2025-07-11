@@ -56,7 +56,7 @@ function Cart() {
           type="button"
           title="Go to checkout"
           onClick={handleCheckout}
-          className="px-2 py-1 bg-amber-300 cursor-pointer hover:outline hover:bg-amber-400 rounded-full"
+          className="px-2 py-1 bg-sky-300 cursor-pointer hover:outline hover:bg-sky-400 rounded-full"
         >
           Checkout your orders
         </button>

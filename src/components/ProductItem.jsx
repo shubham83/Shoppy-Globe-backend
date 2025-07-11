@@ -49,7 +49,8 @@ function ProductItem({ product }) {
         onClick={(e) => {
           handleClick(e, product._id);
         }}
-        className="flex flex-col gap-1.5 w-[80%] md:w-[30%] xl:w-[20%] rounded shadow shadow-slate-600 hover:translate-z-1 hover:translate-0.5 hover:shadow-amber-600 transition-all duration-500 hover:"
+        className="flex flex-col gap-1.5 w-[80%] md:w-[30%] xl:w-[20%] rounded shadow shadow-slate-600 hover:translate-z-1 hover:translate-0.5 hover:shadow-sky-600 transition-all duration-500 bg-sky-500"
+        
       >
         <div className="w-full h-[200px] bg-stone-100 rounded">
           <img className="w-full h-full" src={product.thumbnail} alt="" />
@@ -76,7 +77,7 @@ function ProductItem({ product }) {
           onClick={() => {
             handleAddCart(product);
           }}
-          className="self-center px-2 py-1 mb-2.5 rounded-full bg-amber-400 hover:cursor-pointer hover:outline-2 outline-amber-600 hover:bg-amber-300"
+          className="self-center px-2 py-1 mb-2.5 rounded-full bg-sky-800 hover:cursor-pointer hover:outline-2 outline-sky-600 hover:bg-sky-300 text-white"
         >
           Add to cart
         </button>

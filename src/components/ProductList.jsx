@@ -72,11 +72,11 @@ function ProductList() {
 
   return (
     <>
-      <div className="flex flex-col items-center gap-2">
-        <div className="flex items-center mt-10 gap-2.5 w-full px-4 md:px-16 lg:px-32 xl:px-64">
+      <div className="flex flex-col items-center gap-2 bg-sky-100 ">
+        <div className="flex items-center mt-10 gap-2.5 w-full px-4 md:px-16 lg:px-32 xl:px-64 ">
           <input
             onChange={handleChange}
-            className="shadow shadow-slate-400 rounded px-2 py-1 w-full"
+            className="shadow shadow-slate-400 rounded px-2 py-1 w-full bg-white"
             type="search"
             name=""
             placeholder="Search products..."
@@ -84,12 +84,12 @@ function ProductList() {
           <button
             type="button"
             onClick={handleSearch}
-            className="bg-slate-400 px-1 py-0.5 rounded cursor-pointer hover:bg-slate-300 hover:outline-2"
+            className="bg- px-1 py-0.5 rounded cursor-pointer hover:bg-slate-300 hover:outline-2 bg-white"
           >
             Search
           </button>
         </div>
-        <div className="w-full flex flex-wrap items-center justify-center gap-2.5 lg:gap-6 xl:gap-10 mt-5 py-2.5 perspective-origin-center perspective-normal">
+        <div className="w-full flex flex-wrap items-center justify-center gap-2.5 lg:gap-6 xl:gap-10 mt-5 py-2.5 perspective-origin-center perspective-normal ">
           {toggleSearch
             ? filteredData.map((data) => {
                 return <ProductItem key={data._id} product={data} />;

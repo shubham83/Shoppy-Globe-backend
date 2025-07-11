@@ -66,7 +66,7 @@ function Checkout() {
         <button
           type="button"
           onClick={handleOrder}
-          className="px-2.5 py-1 bg-amber-300 cursor-pointer rounded-full hover:outline hover:bg-amber-400"
+          className="px-2.5 py-1 bg-sky-300 cursor-pointer rounded-full hover:outline hover:bg-sky-400"
         >
           Place Order
         </button>

@@ -77,11 +77,11 @@ function CartItem({ cart_item, reFetch }) {
             <img className="w-full h-full" src={cart_item.thumbnail} alt="" />
           </div>
           <div className="w-full md:w-[80%]">
-            <div className="w-full flex justify-between h-[25px] rounded-full bg-amber-200">
+            <div className="w-full flex justify-between h-[25px] rounded-full bg-sky-200">
               <button
                 type="button"
                 onClick={handleRemove}
-                className="bg-amber-500 rounded-l-full px-2.5 cursor-pointer hover:bg-amber-600"
+                className="bg-sky-500 rounded-l-full px-2.5 cursor-pointer hover:bg-amber-600"
               >
                 -
               </button>
@@ -89,7 +89,7 @@ function CartItem({ cart_item, reFetch }) {
               <button
                 type="button"
                 onClick={handleAdd}
-                className="bg-amber-500 rounded-r-full px-2.5 cursor-pointer hover:bg-amber-600"
+                className="bg-sky-500 rounded-r-full px-2.5 cursor-pointer hover:bg-sky-600"
               >
                 +
               </button>

@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <>
-      <header className="h-[5vh] flex items-center justify-between md:justify-center md:gap-20 lg:gap-40 px-5 py-1 bg-slate-300">
+      <header className="h-[5vh] flex items-center justify-between md:justify-center md:gap-20 lg:gap-40 px-5 py-1 bg-sky-500">
         <nav>
           <ul className="flex items-center gap-2 md:gap-4 lg:gap-8">
             <li>
